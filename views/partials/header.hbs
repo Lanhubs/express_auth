@@ -1,0 +1,15 @@
+<div class="header">
+        <h3><a href="/">Zorex goodies</a></h3>
+        <nav class="navs">
+            {{#if user}}
+                <a href="">{{user.email}}</a>
+                <a href="/logout">Logout</a>
+            {{else}}
+                <a href="/login">Log in<i class="fa fa-sign-in-alt"></i></a>
+            
+            <a href="/signup">Sign Up<i class="fa fa-register"></i></a>
+            
+            {{/if}}
+        </nav>
+</div>
+

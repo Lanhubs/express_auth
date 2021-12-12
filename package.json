@@ -1,0 +1,32 @@
+{
+  "name": "xpress_auth",
+  "version": "1.0.0",
+  "description": "trying out authentication",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^8.5.6"
+  },
+  "scripts": {
+    "devstart": "nodemon app.js",
+    "start": "nodemon app"
+  },
+  "author": "habeeb",
+  "license": "ISC"
+}

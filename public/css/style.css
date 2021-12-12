@@ -1,0 +1,163 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+.main-container{
+    height: 100%;
+    margin: auto 35px;
+    background: url("../img/prod.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.main-container .header{
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    padding: 5px 10px;
+    height: 30px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container .header h3 {
+    display: flex;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .header h3 a{
+    text-decoration: none;
+    color: rgb(243, 236, 236);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+.main-container .header .navs{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    text-decoration: none;
+}
+.navs a{
+    font-size: 15ppx;
+    color: #f4f4f4;
+    margin: 0 10px;
+}
+.navs a:active{
+    background: rgb(235, 224, 81);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.main-container .header h3{
+    color: #ffff;
+}
+
+.main-container .main{
+    width: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.main-container .main .body-content{
+    padding-top: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 60%;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.main h4{
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 1px;
+}
+main .body-content p{
+    letter-spacing: 1px;
+    font-size: larger;
+    word-wrap: break-word;
+    padding: auto 15px;
+}
+.main .body-content a.products-link{
+    text-align: right;
+    text-decoration: none;
+    color: #f4f4f4;
+    background-color: brown;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: auto;
+    justify-self: right;
+}
+.main .body-content a.products-link:hover{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    display: flex;
+}
+
+
+/* login page stylesheet */
+.reg-form {
+    width: 30%;
+    max-width: 80%;
+    background:rosybrown;
+    opacity: 0.6;
+    padding-top: 20px;
+    margin-top: 50px;
+    height: 320px;
+    padding: 20px 5%;
+    display: block;
+    border-radius: 20px;
+}
+.reg-form form{
+    margin-top: 20px;
+}
+.reg-form h2{
+    text-align: center;
+}
+.reg-form .input-parent{
+    width: 86%;
+    height: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffff;
+    padding: 0;
+    margin-top: 5px;
+    outline: none;
+}
+p.emailError, p.pwdError{
+    color:red
+}
+.input-parent input{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;   
+    border: none;
+    outline: none;
+}
+.reg-form form label{
+    margin-top: 10px;
+}
+
+.reg-form button{
+    margin-left: auto;
+    margin-right: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+

@@ -1,0 +1,35 @@
+<div class="main-container">
+
+    {{!-- importing the header partials with hbs --}}
+    {{> header}}
+
+    <div class="main">
+        <div class=" reg-form">
+            <h2>sign Up</h2>
+            <form method="POST" id="form">
+                <label for="username">username</label>
+                <div class="input-parent">
+                    <input type="text"  name="username" id="username"  required>
+                </div>
+                <label for="email">Email</label>
+                <div class="input-parent">
+                    <input type="text"  name="email" id="email"   required>
+                </div>
+                
+                <p class="emailError"></p>
+                
+                <label for="password">password</label>
+                <div class="input-parent">
+                    <input  type="password" name="password" id="password" required>
+                </div>
+                
+                <p class="pwdError"> </p>
+                
+                <button type="submit" class="btn">sign up</button>
+            </form>
+        </div>
+    </div>
+</div>
+    {{!-- script tags for validation --}}
+    <script src="./js/signup.js"></script>
+    

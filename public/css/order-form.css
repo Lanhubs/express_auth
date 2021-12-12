@@ -1,0 +1,18 @@
+/* the other cart form css style */
+
+.main .order-form{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+ .cartForm{
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+
+}
